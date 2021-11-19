@@ -12,11 +12,7 @@ h1, h2, h3, h4, h5, h6
     margin-bottom: 1.1em;
 }
 
-.features,
-.blog,
-.gallery,
-.clients,
-.prefooter .container-fluid
+.container-fluid
 {
     padding-top: 3.3em;
     padding-bottom: 4.2em;
@@ -52,7 +48,7 @@ header .container-fluid
     background-image: url('https://unsplash.it/2560/1707?image=961');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 500px;
     padding-top: 36px;
 }
 
@@ -77,7 +73,8 @@ header .container-fluid
 
 .jumbotron
 {
-    background: none;
+    background:none;
+    background-color: unset !important;
     text-align: center;
 }
 
@@ -103,7 +100,7 @@ header .container-fluid
 	SECTIONS
 \*------------------------------------*/
 
-.number .container-fluid
+.container-fluid
 {
     background-image: url('https://unsplash.it/3000/2000?image=685');
     background-repeat: no-repeat;
@@ -111,70 +108,6 @@ header .container-fluid
     background-position: center;
 }
 
-.opaline
-{
-    padding-top: 3em;
-    padding-bottom: 3em;
-    background-color: rgba(128, 215, 247, 0.660);
-}
-
-.opaline h1,
-.opaline h2,
-.opaline h3,
-.opaline h4,
-.opaline h5,
-.opaline h6,
-.opaline p
-{
-    color: #FFFFFF;
-}
-
-.opaline .boxes
-{
-    margin-top: 30px;
-    padding-top: 20px;
-    padding-bottom: 5px;
-    border: 1px solid #FFF;
-}
-
-.boxes .odometer.odometer-theme-default
-{
-  font-family: 'Roboto Slab', serif;
-}
-
-.story .container-fluid
-{
-    background-image: url('https://unsplash.it/3000/2000?image=531');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.gallery
-{
-    background-color: #dddddd;
-}
-
-.prefooter .container-fluid
-{
-    background: linear-gradient(
-      rgba(33, 37, 43, 0.6),
-      rgba(33, 37, 43, 0.6)
-    ),
-
-    url(https://unsplash.it/4000/3000?image=528);
-}
-
-.prefooter h1,
-.prefooter h2,
-.prefooter h3,
-.prefooter h4,
-.prefooter h5,
-.prefooter h6,
-.prefooter p
-{
-    color: #FFFFFF;
-}
 
 /*------------------------------------*\
 	FOOTER
